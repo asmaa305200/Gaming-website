@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="js/auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="content">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-5 col-md-12 right-side my-4">
+                <div>
+                    <img src="images/register.jpg" alt="reg"/>
+                </div>
+            </div>
+
+
+            <div class="col-lg-7 col-md-12 left-side  my-4">
+                <div class=" d-flex justify-content-center align-items-center flex-column mb-5 mt-3">
+                   <img src="images/logo-sm.png" alt="logo"/>  
+                   <h1>Register to Game Over</h1>
+                </div>
+            <form action=""> 
+                <div> 
+                    <div class="d-flex justify-content-center align-items-center my-3">
+                        <div class="w-50 form-data me-1"> <input type="text" class=" form-control " placeholder="First Name">
+                            <ul class="alert alert-danger list-unstyled invalid-feedback">
+                                <li>-first name is reuired</li>
+                                <li>-min length is 22 and max is 20</li>
+                            </ul>
+                        </div>
+                        <div class="w-50 form-data ms-1"><input type="text" class="form-control" placeholder="Last Name">
+                            <ul class="alert alert-danger list-unstyled invalid-feedback">
+                                <li>-first last is reuired</li>
+                                <li>-min length is 22 and max is 20</li>
+                            </ul>
+                        </div>
+                    </div>
+                      <input type="email" class="form-control my-3" placeholder="email">
+                      <input type="password" class="form-control my-3" placeholder="Passsword">
+                      <input class="form-control my-3" placeholder="Age">
+                      <button id="btn" class="btn btn-outline-light form-control">Register</button>
+                      <p id="login" class="d-none text-center"><a href="./index.html">logIn</a></p>
+                      <p class="text-center fw-bold" id="msg"></p>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+  </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>
